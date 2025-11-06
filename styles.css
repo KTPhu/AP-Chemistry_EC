@@ -1,0 +1,87 @@
+body{
+    margin: 0 auto;
+
+}
+nav{
+    height:100px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    background-color: #80b3b9;
+    padding:25px;
+    position:sticky;
+    top:0;
+    z-index:100;
+    box-shadow: 5px 6px 15px rgb(32, 41, 75)
+}
+
+nav ul{
+    list-style-type:none;
+    display:flex;
+    text-decoration:none;
+    gap:50px;
+    font-size:35px;
+    color: 30253E;
+    font-family: "Turret Road", sans-serif;
+}
+
+.home{
+    padding-bottom: 50px;
+    background-image: url('https://t3.ftcdn.net/jpg/06/35/11/84/240_F_635118476_NZJ2Ux7vyYEksLS267mQVETK4U16Qv3B.jpg');
+    height:500px;
+    max-width:100%;
+    max-height:100%;
+    background-size:cover;
+    /* center headings horizontally and vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical */
+    align-items: left;     /* horizontal */
+    color:#30253E;
+    font-size:35px;
+    background-repeat:no-repeat;
+    position:relative;
+    margin:0 auto;
+    background-position:top left;
+    padding-left:45px;
+    font-family: "BBH Sans Bogle", sans-serif;
+}
+
+/* Prevent gap caused by heading top-margin collapsing out of the .home container */
+.home h1,
+.home h2 {
+    margin-top: 0;
+}
+
+.topics{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+    font-size:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+    background: rgb(23, 49, 84);
+    margin: 0 auto;
+    color:#28abcb;
+}
+
+
+.units{
+    display:flex;
+    flex: 1 1 250px;
+    height:700px;
+    position:relative;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    font-size:45px;
+    color:#4d588e;
+    padding-right: 30px; 
+    flex-wrap:wrap;
+    background: rgba(109, 193, 210, 0.35);
+    padding-bottom: 50px;
+}
