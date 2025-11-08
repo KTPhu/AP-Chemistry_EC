@@ -168,7 +168,7 @@ nav ul a{
 
 .resources{
     max-width:100%;
-    height:3500px;
+    height:auto;
     display:flex;
     flex-direction:column;
     background-color:#170e3a;
@@ -176,14 +176,15 @@ nav ul a{
 
 .topic{
     margin:30px;
-    padding: 25px;
+    padding: 45px;
     display:flex;
     /* flex-direction:column; */
     background-color: #28abcb;
     margin-top:50px;
     border-radius:5px;
     box-shadow: 5px 6px 15px rgb(88, 110, 187);
-    height:500px;
+    /* height:500px; */
+    gap: 30px;
 }
 
 .word{
@@ -194,21 +195,32 @@ nav ul a{
 }
 
 .paragraph{
-    display:block;
+    /* display:block; */
+    display:flex;
+    flex-direction:column;
+    /* justify-content: center; */
     max-width:50%;
     font-size:19px;
     color:#170e3a;
     font-family: "Turret Road", sans-serif;
     max-width:65%;
+    justify-content:flex-start;
+    align-items:center;
+    /* gap:20px; */
 }
 
 .topic img{
-    max-width:30%;
-    height:auto;
+    max-width:550px;
+    max-height:80%;
+    /* object-fit:cover; */
     display:flex;
     justify-content:flex-end;
+    align-items:center;
     margin-left:auto;
     border: 5px solid #1f87a1;
+    /* flex-grow: 100%; */
+    flex: 1 1 300px;
+    position:sticky;
 }
 
 .courseinfo{
@@ -236,4 +248,14 @@ nav ul a{
     justify-content:center;
     align-items:center;
     font-size:30px;
+}
+
+.paragraph ul{
+    align-items:center;
+}
+.paragraph li{
+    align-items: center;
+}
+.paragraph p{
+    align-items: center;
 }
