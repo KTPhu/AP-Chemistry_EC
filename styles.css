@@ -168,16 +168,72 @@ nav ul a{
 
 .resources{
     max-width:100%;
-    height:1000px;
+    height:3500px;
     display:flex;
     flex-direction:column;
-    background-color:rgba(109, 193, 210, 0.35);
+    background-color:#170e3a;
 }
 
 .topic{
-    margin:0 auto;
-    padding: 15px;
+    margin:30px;
+    padding: 25px;
+    display:flex;
+    /* flex-direction:column; */
+    background-color: #28abcb;
+    margin-top:50px;
+    border-radius:5px;
+    box-shadow: 5px 6px 15px rgb(88, 110, 187);
+    height:500px;
+}
+
+.word{
+    font-size:30px;
+    color:#170e3a;
+    font-family: "BBH Sans Bogle", sans-serif;
+    
+}
+
+.paragraph{
+    display:block;
+    max-width:50%;
+    font-size:19px;
+    color:#170e3a;
+    font-family: "Turret Road", sans-serif;
+    max-width:65%;
+}
+
+.topic img{
+    max-width:30%;
+    height:auto;
+    display:flex;
+    justify-content:flex-end;
+    margin-left:auto;
+    border: 5px solid #1f87a1;
+}
+
+.courseinfo{
     display:flex;
     flex-direction:column;
-    background-color: red
+    justify-content:center;
+    align-items:center;
+    font-size:25px;
+    color:#1f87a1;
+    padding:50px;
+    background: #170e3a;
+    text-align:center;
+    font-family: "Turret Road", sans-serif;
+}
+
+#coursehome{
+    background-image: url('https://hthschemistry.wordpress.com/wp-content/uploads/2018/06/ap-chem-logo.gif');
+}
+
+.wow{
+    max-width:100%;
+    height:250px;
+    background-color:#161c24;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
 }
