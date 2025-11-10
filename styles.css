@@ -241,6 +241,8 @@ nav ul a{
 
 #coursehome{
     background-image: url('https://hthschemistry.wordpress.com/wp-content/uploads/2018/06/ap-chem-logo.gif');
+    object-fit: contain;
+    max-width:auto;
 }
 
 .wow{
